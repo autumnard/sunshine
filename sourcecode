@@ -1,0 +1,18 @@
+#incldue <iostream>
+using namespace std;
+
+int main() {
+    string s;
+    cout<< "Enter your name : "<<endl;
+    cin>>s;
+    int num1,num2,num3,average;
+    num1=125;
+    num2=28;
+    num3=-25;
+    average=(num1+num2+num3)/3;
+    cout<< "num1 value is : 125" <<num1<<endl;
+    cout<< "num2 value is : 28" <<num2<<endl;
+    cout<< "num3 value is : -25" <<num3<<endl;
+    cout<< "average is : 42" <<average<<endl;
+    return 0;
+}
